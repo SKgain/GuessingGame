@@ -1,0 +1,156 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    
+    font-family: "Nunito", sans-serif;
+    background-image: url("img/1346612.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card{
+    margin: 100px auto;
+    max-width: 500px;
+    height: 350px;
+
+    border-radius: 10px;
+
+    /* background-color: #7AAD7B; */
+    background-image: url("img/1340251.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 0 4px 8px 0 white;
+    border: 2px solid white;
+    transition: .5s;
+}
+.card:hover{
+    
+    transform: scale(1.05);
+
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    border: 1px double white;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    box-shadow: 0 3px 3px 0 white;
+}
+.card-body{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.form-field label{
+
+    font-size: 1.2rem;
+}
+.btn{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    border: none;
+    background-color: #7AAD7B;
+    opacity: .8;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgb(69, 69, 69);
+    cursor: pointer;
+    transition: .6s;
+}
+button:hover{
+    box-shadow: 0 3px 3px 0 white;
+    background-color: white;
+    color: black;
+}
+input{
+    padding: 5px;
+    font-weight: 100;
+    margin-left: 3px;
+    width: 40%;
+    cursor: pointer;
+    transition: .6s;
+}
+input:hover{
+    transform: scale(1.05);
+    
+}
+.resultTest{
+    margin-top: 20px;
+}
+.remainingAttempts{
+    margin-top: 15px;
+    font-weight: bolder;
+    color: rgba(0, 255, 21, 0.922);
+}
+p{
+    text-align: center;
+}
+.largText{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fafa11;
+
+}
+
+@media screen and (max-width: 601px) {
+    .card {
+        max-width: 300px;
+    }
+
+    .card:hover {
+        transform: scale(1.05); /* Adjust the scale value as needed */
+    }
+}
+
+
+/* footer start */
+.footer-content p{
+    
+    color: white;
+    font-weight: 400;
+    font-family: "Fira Sans";
+   
+    
+}
+.footer-content{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.icon-style{
+
+    color: white;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    line-height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: .4s;
+    margin: 0 10px;
+    text-align: center;
+
+}
+.social-media{
+    margin-top: 2px;
+   text-align: center;
+}
+.icon-style:hover{
+    transform: scale(1.2);
+}
